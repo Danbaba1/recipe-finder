@@ -1,0 +1,48 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #12121a;
+  color: #f2f0eb;
+  margin: 0;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: #1f1f2b;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+a {
+  color: #e8a33d;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 0;
+  font: inherit;
+}
+
+ul {
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+button {
+  font: inherit;
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: 0;
+  background: #e8a33d;
+  color: #12121a;
+  cursor: pointer;
+}
