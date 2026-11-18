@@ -27,7 +27,7 @@ export default function App() {
   }
   return (
     <FavouritesContext.Provider value={{ saved, toggle }}>
-      <BrowserRouter>
+      <BrowserRouter basename="/recipe-finder">
         <Header />
         <main>
           <Routes>
